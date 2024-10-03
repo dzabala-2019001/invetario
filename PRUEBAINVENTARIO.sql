@@ -52,8 +52,6 @@ BEGIN
     END
 END
 
-
-
 -- RESTA EL STOCK AL MOMENTO QUE SALGA UN PRODUCTO
 DECLARE @nombreEquipo varchar(80) = 'Monitor Dell';
 DECLARE @modelo varchar(80) = 'E2020H';
@@ -65,7 +63,9 @@ BEGIN
 
     SELECT @stockActual = cantidad 
     FROM producto 
-    WHERE nombreEquipo = @nombreEquipo AND modelo = @modelo;
+    WHERE nombreEquipo
+
+ = @nombreEquipo AND modelo = @modelo;
 
     IF @stockActual >= @cantidad
     BEGIN
@@ -83,5 +83,31 @@ BEGIN
     PRINT 'El producto no existe en la base de datos';
 END
 
+ 
+-- Eliminar un producto solo si tiene stock cero
+DECLARE @nombreEquipo varchar(80) = 'Monitor Dell';
+DECLARE @modelo varchar(80) = 'E2020H';
 
--- eliminar un producto pero si aun tiene stock no permitir 
+IF EXISTS (SELECT 1 FROM producto WHERE nombreEquipo = @nombreEquipo AND modelo = @modelo)
+BEGIN
+    DECLARE @stockActual int;
+
+    SELECT @stockActual = cantidad 
+    FROM producto 
+    WHERE nombreEquipo = @nombreEquipo AND modelo = @modelo;
+
+    IF @stockActual = 0
+    BEGIN
+        DELETE FROM producto
+        WHERE nombreEquipo = @nombreEquipo AND modelo = @modelo;
+        PRINT 'Producto eliminado correctamente.';
+    END
+    ELSE
+    BEGIN
+        PRINT 'No se puede eliminar el producto porque todavía tiene stock.';
+    END
+END
+ELSE
+BEGIN
+    PRINT 'El producto no existe en la base de datos.';
+END
