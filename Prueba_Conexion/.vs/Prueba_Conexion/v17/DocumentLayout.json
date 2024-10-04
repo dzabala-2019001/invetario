@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\itsoporte\\source\\repos\\Prueba_Conexion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52812308-BBE6-4555-A24F-1EC504D2A112}|Prueba_Conexion\\Prueba_Conexion.csproj|c:\\users\\itsoporte\\source\\repos\\prueba_conexion\\prueba_conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52812308-BBE6-4555-A24F-1EC504D2A112}|Prueba_Conexion\\Prueba_Conexion.csproj|solutionrelative:prueba_conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52812308-BBE6-4555-A24F-1EC504D2A112}|Prueba_Conexion\\Prueba_Conexion.csproj|C:\\Users\\itsoporte\\source\\repos\\Prueba_Conexion\\prueba_conexion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52812308-BBE6-4555-A24F-1EC504D2A112}|Prueba_Conexion\\Prueba_Conexion.csproj|solutionrelative:prueba_conexion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\itsoporte\\source\\repos\\Prueba_Conexion\\Prueba_Conexion\\Conexion.cs",
+              "RelativeDocumentMoniker": "Prueba_Conexion\\Conexion.cs",
+              "ToolTip": "C:\\Users\\itsoporte\\source\\repos\\Prueba_Conexion\\Prueba_Conexion\\Conexion.cs",
+              "RelativeToolTip": "Prueba_Conexion\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:37:03.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\itsoporte\\source\\repos\\Prueba_Conexion\\Prueba_Conexion\\Form1.cs",
+              "RelativeDocumentMoniker": "Prueba_Conexion\\Form1.cs",
+              "ToolTip": "C:\\Users\\itsoporte\\source\\repos\\Prueba_Conexion\\Prueba_Conexion\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Prueba_Conexion\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:16:54.747Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
